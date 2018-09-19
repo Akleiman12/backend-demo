@@ -4,8 +4,7 @@
   "description": "Backend for SweetCherry Tech Test",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node ./dist/index.js",
-    "dev": "SET NODE_ENV=development && nodemon ./src/index.ts"
+    "start": "tsc && node ./dist/index.js"
   },
   "author": "Asher Kleiman",
   "license": "ISC",
@@ -14,7 +13,7 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.3",
-    "mongoose": "^5.2.15",
+    "mongodb": "^3.1.6",
     "nodemon": "^1.18.4"
   }
 }
