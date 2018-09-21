@@ -28,4 +28,4 @@ This should be enough to run these projects.
 
 ## Database
 
-The database used for this project is hosted in mLab.com, no further configuration is required. Although, this means the same database will be used for all instances of this project.
+The database used for this project is a MongoDB and it is hosted in mLab.com, no further configuration is required. Although, this means the same database will be used for all instances of this project.
