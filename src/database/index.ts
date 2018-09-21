@@ -17,8 +17,8 @@ export class Database {
     }
 
     async connectMongo(): Promise<any>{
-        const mc = await MongoClient.connect('mongodb://localhost:27017/db',{ useNewUrlParser: true });
-        this.mongo = mc.db('db');
+        const mc = await MongoClient.connect('mongodb://dbuser:gold179@ds259912.mlab.com:59912/sctdb',{ useNewUrlParser: true });
+        this.mongo = mc.db('sctdb');
         this.Product = this.mongo.collection<Product>('product');
         console.log("Mongo Ready!")
 

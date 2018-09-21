@@ -5,5 +5,6 @@ export interface Product {
     _id?: ObjectId,
     name?: string,
     inventory?: number,
+    price?: number,
     img?: string
 }
