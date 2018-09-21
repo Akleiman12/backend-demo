@@ -8,22 +8,22 @@ To serve the whole project you'll need Node.js, npm (comes with Node.js) and Ang
 
 ## Serve
 
-First it is needed to install dependencies with
+First it is needed to install dependencies with:
 ```
 npm install
 ```
-on both backend-sct and frontend-sct
+on both backend-sct and frontend-sct.
 
-To be able to run the project, first run backend-sct with 
+To be able to run the project, first run backend-sct with:
 ```
 npm run start
 ```
-then start frontend-sct with
+then start frontend-sct with:
 ```
 ng serve
 ```
 
-This should be enough to run these projects
+This should be enough to run these projects.
 
 
 ## Database
