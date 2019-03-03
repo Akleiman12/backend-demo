@@ -1,6 +1,6 @@
-# Frontend Demo for SweetCherry Tech
+# Backend Demo
 
-This project is a test presentation for SweetCherry Tech. There are two repositories for this project: frontend-sct and backend-sct; both are needed to see the whole proyect working.
+This project is a test version of a basic backend. There are two repositories for this project: frontend-demo and backend-demo; both are needed to see the whole proyect working.
 
 ## Requirements
 
@@ -12,13 +12,13 @@ First it is needed to install dependencies with:
 ```
 npm install
 ```
-on both backend-sct and frontend-sct.
+on both backend-demo and frontend-demo.
 
-To be able to run the project, first run backend-sct with:
+To be able to run the project, first run backend-demo with:
 ```
 npm run start
 ```
-then start frontend-sct with:
+then start frontend-demo with:
 ```
 ng serve
 ```
@@ -29,3 +29,5 @@ This should be enough to run these projects.
 ## Database
 
 The database used for this project is a MongoDB and it is hosted in mLab.com, no further configuration is required. Although, this means the same database will be used for all instances of this project.
+
+To use a diferent MongoDB instance, a different connection is needed. This can easily be done in the database module by changing some parameters.
